@@ -1,8 +1,4 @@
-/*Program that takes in an integer (X) and returns the difference between X an the closest Fibonacci Number
-Example X = 15 will return 2, 15 falls between the fib numbers 13 and 21, closer to 13, 15 - 13 = 2
-If X is a fib number such as 34, the program returns 0.
-*/
-
+/* Written by Jatinder Singh */
 
 #include <iostream>
 #include <vector>
