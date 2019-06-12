@@ -8,4 +8,4 @@ Explanation: 15 falls between the Fibonacci Numbers 13 and 21, 15 is closer to 1
 
 Example: X = 34 returns 0.
 
-Explanation: X is a fibonacci number, therefore the program returns 0.
+Explanation: 34 is a fibonacci number, therefore the program returns 0.
