@@ -9,7 +9,7 @@ int fib(int N) {
         if (N == 1) return 1;
         
         return fib(N-1) + fib(N-2);
-    }
+}
 
 void addtoSeq(vector<int>& seq){
 	seq.push_back(seq[seq.size()-1]+ seq[seq.size()-2]);
@@ -20,7 +20,6 @@ void printSeq(vector<int>& seq){
 	for(int j = 0; j < seq.size(); j++){
 	 	cout << seq[j] << ' ';
 	}
-
 	cout << endl;
 }
 
@@ -41,5 +40,4 @@ int main(){
  
 	int result = (fibSeq[fibSeq.size()-1] - x) > (x -fibSeq[fibSeq.size()-2] ) ? x -fibSeq[fibSeq.size()-2] : fibSeq[fibSeq.size()-1] - x;
 	cout << result << endl;
-
 }
