@@ -1,4 +1,4 @@
-# FibonacciDifference
+# Fibonacci Difference
 
 This is a program writtin in C++ that takes in an integer (x) and returns the difference between x and the closest Fibonacci number
 
